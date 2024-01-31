@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.name h1{
+    font-size: 40px;
+    font-family: "Franklin Gothic";
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about{
+    padding: 5px;
+    border: 2px solid #d9d9d9;
+}
+.about p{
+    font-family: "Palatino";
+    line-height: 2 ;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.contact{
+    grid-column: 1;
+    background-color: #0f1b27;
+    color: #f2f2f2    ;
+    margin-right: 8px;
+}
+
+.contact h3{
+    position: relative;
+    left: 100px;
+    width:fit-content;
+    text-align: center;
+    color: #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+}
+
+.contact ul{
+    font-size: 14px;
+}
+.contact li{
+    margin:7px;
+}
+
+.content{
+    grid-column: 2;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+.content li{
+    font-family: "Palatino";
+    padding: 8px;
+}
+
+section {
+    margin: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+h3{
+    font-family: "Georgia";
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education, .experience, .skills {
+    margin-bottom: 30px;
+}
+
+.education h2, .experience h2, .skills h2 {
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
